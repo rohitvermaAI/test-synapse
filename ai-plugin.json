@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Synapse Query Plugin",
+    "name_for_model": "synapse_query_plugin",
+    "description_for_human": "Query Azure Synapse database and retrieve data.",
+    "description_for_model": "Allows querying Azure Synapse database using SQL commands.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "http://your-public-api-url/openapi.json",
+        "has_user_authentication": false
+    },
+    "logo_url": "http://your-public-api-url/logo.png",
+    "contact_email": "your-email@example.com",
+    "legal_info_url": "http://your-public-api-url/legal"
+}
